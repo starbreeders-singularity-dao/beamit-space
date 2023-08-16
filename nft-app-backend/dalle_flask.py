@@ -13,7 +13,7 @@ from flask import send_from_directory
 app = Flask(__name__)
 CORS(app)
 
-openai.api_key = "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"
+openai.api_key = "YOUR-API-KEY"
 
 UPLOAD_FOLDER = './uploads'
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg'}
